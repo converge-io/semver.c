@@ -1,0 +1,5 @@
+if(CONFIG_SEMVER)
+    zephyr_library_named(semver)
+    zephyr_library_sources(${CMAKE_CURRENT_SOURCE_DIR}/../semver.c)
+    zephyr_include_directories(${CMAKE_CURRENT_SOURCE_DIR}/..)
+endif()

@@ -1,0 +1,4 @@
+name: semver.c
+build:
+  cmake: zephyr/.
+  kconfig: zephyr/Kconfig

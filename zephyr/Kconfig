@@ -1,0 +1,3 @@
+config SEMVER
+    bool "Enables support for the semver C library"
+    default n
